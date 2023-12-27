@@ -14,8 +14,6 @@ import {
 } from "@/components/potreeCore";
 import { Renderer } from "./Renderer";
 
-const assetUrl = new URL(`@/assets/perugia/`, import.meta.url).href;
-
 document.body.onload = function () {
   let pointClouds: PointCloudOctree[] = [];
 
@@ -64,7 +62,7 @@ document.body.onload = function () {
     }
   };
 
-  loadPointCloud(assetUrl + "/", "metadata.json");
+  loadPointCloud("/perugia/", "metadata.json");
 
   function loadPointCloud(
     baseUrl: string,

@@ -10,7 +10,6 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@pnext/three-loader": "^0.2.9",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "three": "^0.160.0"

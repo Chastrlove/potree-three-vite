@@ -38,7 +38,7 @@ import {
 import { BinaryHeap } from "./utils/binary-heap";
 import { Box3Helper } from "./utils/box3-helper";
 import { LRU } from "./utils/lru";
-import { PointAttribute } from "@/potreeCore/loading2/PointAttributes.ts";
+import { PointAttribute } from "@/components/potreeCore/loading2/PointAttributes";
 
 export class QueueItem {
   constructor(
